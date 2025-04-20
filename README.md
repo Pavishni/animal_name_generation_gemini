@@ -3,13 +3,9 @@ This project provides a simple API endpoint for generating creative animal names
 
 
 **Tech Stack**
-Gemini AI: Used for natural language processing and name generation.
-
-Node.js: Server-side environment for the API.
-
-Axios: HTTP client for making API requests to Gemini.
-
-dotenv: For managing environment variables securely.
+Gemini AI, model: gemini-2.0-flash
+Node JS
+React and Next.js
 
 
 
