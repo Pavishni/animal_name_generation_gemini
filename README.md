@@ -6,9 +6,9 @@ This project provides a simple API endpoint for generating creative animal names
 
 ## **Tech Stack** 💻
 
-<font size="5">**Gemini AI**</font>, model: v1beta(gemini-2.0-flash)
-**Node JS**  
-**React and Next.js**
+- **Gemini AI** (using model: `gemini-2.0-flash` with API version: `v1beta`)
+- **Node JS**
+- **React and Next.js**
 
 ---
 
