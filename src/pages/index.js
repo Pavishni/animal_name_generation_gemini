@@ -14,7 +14,7 @@ async function onSubmit(e) {
 
       try {
       if(count == 10) {
-        return console.log('you have reached your limit')
+        return alert('you have reached your limit')
       }
 
       const response = await fetch("/api/generate", {
