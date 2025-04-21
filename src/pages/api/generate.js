@@ -25,7 +25,6 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Construct request payload
     const payload = {
       contents: [
         {
@@ -38,17 +37,14 @@ export default async function handler(req, res) {
       ],
     };
 
-    // Send the request using axios
     const response = await axios.post(API_URL, payload, {
       params: {
         key: API_KEY,
       },
     });
 
-    // Log the response to understand its structure
     console.log("API Response:", response.data);
 
-    // Extract the result from the response based on the structure you provided
     const generatedText =
       response.data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || "";
 
