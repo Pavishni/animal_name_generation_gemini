@@ -14,5 +14,5 @@ This project provides a simple API endpoint for generating creative animal names
 
 ## **Output:** 🖼️
 
-![Output1](./output/image.png)
-![Output2](./output/image-1.png)
+![Output1](./output/image1.png)
+![Output2](./output/image2.png)

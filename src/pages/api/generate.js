@@ -30,7 +30,7 @@ export default async function handler(req, res) {
         {
           parts: [
             {
-              text: `You're a naming assistant who generates fun animal names. Give me 5 creative name ideas for a ${animal}.`,
+              text: `You're a naming assistant who generates only fun and simple animal names, don't give descriptions. Give me 5 creative name ideas for a ${animal} seperated with |.`,
             },
           ],
         },
