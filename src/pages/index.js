@@ -43,7 +43,7 @@ async function onSubmit(e) {
   return (
     <div className={styles.body}>      
       <Head>
-        <title>Create Next App</title>
+        <title>Name My Pet</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
