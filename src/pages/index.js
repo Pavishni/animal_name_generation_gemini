@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import {useState} from 'react';
+//import Head from 'next/head';
+import {useState,useEffect} from 'react';
 import styles from "./index.module.css";
 
 export default function Home() {
@@ -7,6 +7,10 @@ export default function Home() {
   const [count, setCounter] = useState(0);
   const [animalInput, setAnimalInput] = useState("");
   const [result, setResult] = useState();
+
+  useEffect(() => {
+    document.title = 'Name My Pet';
+  }, []);
 
 async function onSubmit(e) {
 
@@ -42,10 +46,6 @@ async function onSubmit(e) {
 
   return (
     <div className={styles.body}>      
-      <Head>
-        <title>Name My Pet</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className={styles.main}>
        <img src='/favicon.ico' className={styles.icon} />
        <h3>Name My Pet</h3>
